@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.hero {
+  background-image: url(../img/bg.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: #000;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+
+.form {
+  max-width: 630px;
+  width: 100%;
+  margin: 0 auto;
+}
