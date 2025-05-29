@@ -358,4 +358,86 @@ footer {
   section {
     margin-bottom: 50px;
   }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .about__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about__text-big {
+    font-size: 60px;
+  }
+
+  .about__item {
+    text-align: center;
+  }
+
+  .carousel-control-next {
+    right: 5px;
+  }
+  .carousel-control-prev {
+    left: 5px;
+  }
+
+  .advan__box {
+    flex-wrap: wrap;
+  }
+  .advan__slider-text {
+    max-width: 250px;
+  }
+  .advan__container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .advan__item {
+    text-align: center;
+  }
+  .title {
+    font-size: 30px;
+  }
+
+  .service__container button {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .service__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service__item a {
+    width: 100%;
+  }
+  .works__item img {
+    width: 100%;
+  }
+
+  .form__input {
+    max-width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .form__question {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-line {
+    margin-top: 50px;
+  }
+}
+
+.footer-container {
+  margin-top: 200px;
+  max-width: 300px;
+  color: #fff;
 }
