@@ -324,3 +324,38 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+.header__btn {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header__btn {
+    display: block;
+  }
+  .header__list {
+    display: none;
+  }
+  header {
+    max-width: 400px;
+  }
+  .header__logo img:nth-child(2) {
+    display: none;
+  }
+  .hero__title {
+    font-size: 42px;
+    margin-top: 120px;
+  }
+
+  .hero__wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .hero__more {
+    display: none;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+}
